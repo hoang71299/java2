@@ -10,6 +10,7 @@ public class Ex22 {
             reversed = reversed * 10 + digit;
             n /= 10;
         }
+
         return original == reversed;
     }
 
@@ -34,6 +35,7 @@ public class Ex22 {
         System.out.print("Nhập số b (b > a): ");
         int b = scanner.nextInt();
 
+
         int countPalindrome = 0, sumPalindrome = 0;
         int countPerfectSquare = 0, sumPerfectSquare = 0;
         int countPrime = 0, sumPrime = 0;
@@ -46,6 +48,7 @@ public class Ex22 {
             if (isPerfectSquare(i)) {
                 countPerfectSquare++;
                 sumPerfectSquare += i;
+
             }
             if (isPrime(i)) {
                 countPrime++;
