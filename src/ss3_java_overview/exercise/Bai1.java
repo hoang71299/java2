@@ -14,5 +14,6 @@ public class Bai1 {
 
         //how to get current year  in jav
         System.out.println();
+        
     }
 }
